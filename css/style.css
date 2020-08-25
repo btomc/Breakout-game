@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 38px;
     color: #f0ffff;
 }
 
@@ -66,4 +66,15 @@ canvas {
 
 .rules.show {
     transform: translateX(0);
+}
+
+@media (max-width: 1300px) {
+    #canvas {
+        height: 450px;
+    }
+    h1 {
+        font-size: 34px;
+        margin-top: 5px;
+    }
+
 }
